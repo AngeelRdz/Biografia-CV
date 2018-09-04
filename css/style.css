@@ -60,10 +60,6 @@ a:active {
     text-transform: uppercase;
 }
 
-.bg-primary {
-    background-color: #0e4580!important;
-}
-
 @media (min-width: 992px) {
     #sideNav {
         text-align: center;
@@ -83,7 +79,6 @@ a:active {
     #sideNav .navbar-brand .img-profile {
         max-width: 10rem;
         max-height: 10rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
     #sideNav .navbar-collapse {
         display: flex;
@@ -103,3 +98,98 @@ a:active {
         display: block;
     }
 }
+
+/*==================================================
+                  Iconos sociales
+====================================================*/
+.list-social-icons a {
+    color: #495057;
+}
+
+.list-social-icons a:hover {
+    color: #2196f3;
+}
+
+.list-social-icons a .fa-lg {
+    font-size: 1.75rem;
+}
+
+.list-icons {
+    font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+    color: #2196f3;
+}
+
+
+/*==================================================
+                  Secciones (Genérico)
+====================================================*/
+.heading-border {
+    width: 60px;
+    height: 10px;
+    background-color: #2196f3;
+    margin: 0 auto 20px auto;
+}
+
+section.resume-section {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+.bg-primary {
+    background-color: #00264e !important;
+}
+
+.text-primary {
+    color: #949598 !important;
+}
+
+/*==================================================
+                      Personal
+====================================================*/
+#personal {
+    background-image: url(../img/artem-sapegin-176819-unsplash.jpg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#personal::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* z-index: -1; */
+}
+
+.text-personal{
+    color: #000000;
+}
+
