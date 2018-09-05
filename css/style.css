@@ -618,3 +618,81 @@ button.close.btn-closed {
         display: block;
     }
 }
+
+/*====================================================
+                    Habilidades
+======================================================*/
+
+/* #habilidades {
+    background-image: url("../img/habilidades.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+
+.skill-cover {
+    background-color: #f0f0f0; 
+}
+
+.skill-cover h3{
+  font-family: "hind", sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.skill-item {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    /* background: rgba(144, 144, 144, 0.78); */
+}
+
+.skill-item i {
+    color: #2196f3;
+}
+
+.skill-item h2 {
+    color: #000;
+    font-size: "hind", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.skill-item p {
+    color: #000;
+    font-family: "hind", sans-serif;
+    /*text-transform: uppercase;*/
+    font-weight: 300;
+    margin-top: 0;
+}
+
+svg.icono {
+    width: 20%;
+    color: #2196f3;
+}
+
+svg.icono-php {
+    width: 25%;
+    color: #2196f3;
+}
+
+svg.icono-java {
+    width: 17%;
+    color: #2196f3;
+}
+
+svg.icono-data {
+    width: 20%;
+    color: #2196f3;
+}
+
+svg.icono-angular {
+    width: 19%;
+    color: #2196f3;
+}
+
+svg.icono-responsive {
+    width: 12%;
+    color: #2196f3;
+}
