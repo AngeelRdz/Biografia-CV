@@ -93,6 +93,43 @@ a:active {
     cursor: pointer;
 }
 
+.con-btn{
+    position: relative;
+    vertical-align: middle;
+    border: 2px solid #495057;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn_descargar{
+    background-color: transparent;
+    color: #2196f3!important;
+    text-decoration: none;
+}
+
+.con-btn:hover{
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.leer-mas{
+    color: #2196f3!important;
+    cursor: pointer;
+}
+
+a.a-apps{
+    color: #2196f3!important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.a-apps:hover{
+    text-decoration: none;
+    color: #00264e!important;
+}
+
 /*==================================================
                 NAV-BAR
 ====================================================*/
@@ -701,7 +738,7 @@ svg.icono-responsive {
                 Educación
 ====================================================*/  
 #educacion {
-    background: #f5f5f5;
+    background: #ffffff;
 }
 
 #educacion .card h4{
@@ -714,23 +751,27 @@ svg.icono-responsive {
                 Contacto
 ======================================================*/
 
+#contact{
+    background: #f5f5f5;
+}
+
 #contacto{
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 #contacto .contact-cont h3{
-  color:#555;
-  font-size: 45px;
+    color:#555;
+    font-size: 45px;
 }
 
 #contacto .contact-cont p{
-  padding-right: 20px;
-  font-size: 15px;
+    padding-right: 20px;
+    font-size: 15px;
 }
 
 #contacto .contact-cont2 address,
 #contacto .contact-cont2 address a{
-  color:#666;
+    color:#666;
 }
 
 .contact-side-desc{
@@ -738,25 +779,25 @@ svg.icono-responsive {
 } 
 
 .contact-box-desc h3{
-  color:#555;
+    color:#555;
 }
 
 .contact-box-desc h3 i{
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .social-icon-f li{
-  display: inline-block;
+    display: inline-block;
 }
 
 .social-icon-f li i{
-  height: 35px;
-  width:35px;
-  line-height: 31px;
-  border:2px solid #2196f3;
-  text-align: center;
-  margin-right: 10px;
-  border-radius: 50%;
+    height: 35px;
+    width:35px;
+    line-height: 31px;
+    border:2px solid #2196f3;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
 }  
 
 @media(max-width: 767px){
